@@ -34,7 +34,7 @@ cd krillion-autoopen
 
 The hook runs [`scripts/open-krillion.sh`](scripts/open-krillion.sh), which opens the URL in the background and returns immediately, so it never slows the agent down or adds anything to its context.
 
-To avoid a tab per prompt, it opens at most **once every 10 minutes**.
+To avoid a tab per prompt, it opens at most **once every 5 minutes**.
 
 ## Settings
 
@@ -42,7 +42,7 @@ Set these in your shell profile:
 
 | Variable            | Default               | Meaning                                  |
 |---------------------|-----------------------|------------------------------------------|
-| `KRILLION_COOLDOWN` | `600`                 | Seconds between opens (`0` = every prompt) |
+| `KRILLION_COOLDOWN` | `300`                 | Seconds between opens (`0` = every prompt) |
 | `KRILLION_URL`      | `https://krillion.io` | Page to open                             |
 | `KRILLION_DISABLED` | unset                 | `1` turns it off                         |
 

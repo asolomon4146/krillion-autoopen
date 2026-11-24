@@ -4,14 +4,14 @@
 #
 # Env vars:
 #   KRILLION_URL       URL to open            (default: https://krillion.io)
-#   KRILLION_COOLDOWN  seconds between opens  (default: 600, 0 = every time)
+#   KRILLION_COOLDOWN  seconds between opens  (default: 300, 0 = every time)
 #   KRILLION_DISABLED  set to 1 to turn off
 #
 # Flags:
 #   --cursor   print the JSON Cursor's beforeSubmitPrompt hook expects
 
 URL="${KRILLION_URL:-https://krillion.io}"
-COOLDOWN="${KRILLION_COOLDOWN:-600}"
+COOLDOWN="${KRILLION_COOLDOWN:-300}"
 STATE_DIR="${XDG_STATE_HOME:-$HOME/.local/state}/krillion"
 STAMP="$STATE_DIR/last-open"
 

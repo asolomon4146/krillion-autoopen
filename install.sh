@@ -67,4 +67,4 @@ if [ "$TARGET" = "all" ] || [ "$TARGET" = "claude" ]; then
     echo "✓ Claude Code: hook added to ~/.claude/settings.json"
   fi
 fi
-echo "krillion.io will open when your agent starts working (at most once every ${KRILLION_COOLDOWN:-600}s)."
+echo "krillion.io will open when your agent starts working (at most once every ${KRILLION_COOLDOWN:-300}s)."
