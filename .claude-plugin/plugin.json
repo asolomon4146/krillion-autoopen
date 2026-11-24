@@ -1,0 +1,9 @@
+{
+  "name": "krillion-autoopen",
+  "version": "1.0.0",
+  "description": "Opens krillion.io in your browser whenever Claude Code starts working on a prompt.",
+  "homepage": "https://krillion.io",
+  "repository": "https://github.com/asolomon4146/krillion-autoopen",
+  "license": "MIT",
+  "keywords": ["krillion", "hooks", "browser"]
+}

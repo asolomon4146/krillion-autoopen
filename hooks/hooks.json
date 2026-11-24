@@ -1,0 +1,16 @@
+{
+  "description": "Open krillion.io when Claude starts working on a prompt",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/scripts/open-krillion.sh\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

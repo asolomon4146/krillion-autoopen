@@ -1,0 +1,11 @@
+{
+  "name": "krillion",
+  "owner": { "name": "asolomon4146" },
+  "plugins": [
+    {
+      "name": "krillion-autoopen",
+      "source": "./",
+      "description": "Opens krillion.io in your browser whenever Claude Code starts working on a prompt."
+    }
+  ]
+}
