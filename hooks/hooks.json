@@ -1,5 +1,5 @@
 {
-  "description": "Open krillion.io when Claude starts working on a prompt",
+  "description": "Open Krillion Puffer Party when Claude starts working on a prompt",
   "hooks": {
     "UserPromptSubmit": [
       {

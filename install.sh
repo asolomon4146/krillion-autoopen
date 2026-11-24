@@ -67,4 +67,5 @@ if [ "$TARGET" = "all" ] || [ "$TARGET" = "claude" ]; then
     echo "✓ Claude Code: hook added to ~/.claude/settings.json"
   fi
 fi
-echo "krillion.io will open when your agent starts working (at most once every ${KRILLION_COOLDOWN:-300}s)."
+echo "Puffer Party will open when your agent starts working (at most once every ${KRILLION_COOLDOWN:-300}s)."
+echo "For auto-join: open chrome://extensions, enable Developer mode, Load unpacked -> $SRC_DIR/extension"

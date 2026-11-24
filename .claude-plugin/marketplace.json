@@ -5,7 +5,7 @@
     {
       "name": "krillion-autoopen",
       "source": "./",
-      "description": "Opens krillion.io in your browser whenever Claude Code starts working on a prompt."
+      "description": "Opens Krillion Puffer Party (and auto-joins a 3s game) whenever Claude Code starts working on a prompt."
     }
   ]
 }

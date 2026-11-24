@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Krillion Puffer Party Auto-Join",
+  "version": "1.0.0",
+  "description": "When krillion.io/party is opened with #autojoin=3s, picks the game size and joins a game.",
+  "host_permissions": ["https://krillion.io/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://krillion.io/party*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
